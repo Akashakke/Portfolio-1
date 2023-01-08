@@ -26,10 +26,9 @@ const Footer = () => {
             
           />
         </a>
-        </div>
+
        
-        <div className="f-icons">
-          <a
+        <a
             style={{ padding: "20px" }}
             href="https://in.linkedin.com/in/akash-praveen"
           >
@@ -63,6 +62,10 @@ const Footer = () => {
               width="40rem"
             />
           </a>
+        </div>
+       
+        <div className="f-icons">
+         
         </div>
       </div>
     </div>
