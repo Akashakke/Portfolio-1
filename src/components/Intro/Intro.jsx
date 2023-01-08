@@ -14,6 +14,9 @@ import Instagram from "../../img/instagram.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
+import { TypeAnimation } from 'react-type-animation';
+import ReactTypingEffect from 'react-typing-effect';
+
 import { Link } from "react-scroll";
 const Intro = () => {
   // Transition
@@ -31,30 +34,35 @@ const Intro = () => {
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hey! I Am</span>
           <span>Akash praveen</span>
-          <span>Full stack developer</span>
-
-<div className="typewriter">
-
-<Typewriter 
-  
-  onInit={(typewriter)=> {
-
-  typewriter
-   
-  .typeString("GeeksForGeeks")
-    
-  .pauseFor(1000)
-  .deleteAll()
-  .typeString("Welcomes You")
-  .pauseFor(1000)
-  .deleteAll()
-  .typeString("portfolio")
-  .start()
-  
-  }}
-  />
-</div>
           
+
+
+
+
+
+
+      <div className="typing">
+      <TypeAnimation
+      sequence={[
+        'Frontend developer', // Types 'One'
+        2000, // Waits 1s
+        'Backend developer', // Deletes 'One' and types 'Two'
+        2000, // Waits 2s
+        'Full stack developer', // Types 'Three' without deleting 'Two'
+        5000,
+        () => {
+          console.log('Done typing!'); // Place optional callbacks anywhere in the array
+        }
+      ]}
+      wrapper="div"
+      cursor={true}
+      repeat={Infinity}
+      style={{ fontSize: '1em',fontWeight:'bold' }}
+    />
+
+    
+
+</div>
 
 
 
