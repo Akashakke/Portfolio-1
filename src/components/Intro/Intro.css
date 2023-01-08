@@ -95,6 +95,15 @@
   filter: blur(72px);
 }
 
+.typewriter{
+  
+  font-weight: 800;
+  font-size: 80px;
+  color: dodgerblue;
+  margin-top: 10px;
+  
+}
+
 @media screen and (max-width: 480px) {
   .Intro {
     flex-direction: column;
@@ -114,3 +123,5 @@
     top: -7rem !important;;
   }
 }
+
+

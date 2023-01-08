@@ -13,6 +13,7 @@ import LinkedIn from "../../img/linkedin.png";
 import Instagram from "../../img/instagram.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
+import Typewriter from "typewriter-effect";
 import { Link } from "react-scroll";
 const Intro = () => {
   // Transition
@@ -31,6 +32,35 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hey! I Am</span>
           <span>Akash praveen</span>
           <span>Full stack developer</span>
+
+<div className="typewriter">
+
+<Typewriter 
+  
+  onInit={(typewriter)=> {
+
+  typewriter
+   
+  .typeString("GeeksForGeeks")
+    
+  .pauseFor(1000)
+  .deleteAll()
+  .typeString("Welcomes You")
+  .pauseFor(1000)
+  .deleteAll()
+  .typeString("portfolio")
+  .start()
+  
+  }}
+  />
+</div>
+          
+
+
+
+
+
+
         </div>
         <Link to="contact" smooth={true} spy={true}>
           <button className="button i-button">Hire me</button>

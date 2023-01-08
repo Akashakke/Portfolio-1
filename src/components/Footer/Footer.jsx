@@ -12,14 +12,14 @@ const Footer = () => {
       <div className="f-content">
         <div className="mailid" style={{color:'black'}}>akash.akke4@gmail.com</div>
         <div>
-        <a href="tel:9047346659">
+        <a style={{ padding: "20px" }} href="tel:9047346659">
           <img
             src="https://cdn.iconscout.com/icon/premium/png-256-thumb/phone-173-103873.png"
             width="40px"
             
           />
         </a>
-        <a href="mailto:rakashpraveen@karunya.edu.in">
+        <a style={{ padding: "20px" }} href="mailto:rakashpraveen@karunya.edu.in">
           <img
             src="https://cdn.iconscout.com/icon/free/png-256/gmail-2981844-2476484.png"
             width="40px"
