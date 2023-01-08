@@ -21,6 +21,10 @@
   gap: 2rem;
 }
 
+.mailid{
+  margin-top: 100px;
+}
+
 @media screen and (max-width: 480px){
   .f-content{
     transform: scale(.5);
