@@ -24,14 +24,14 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
+        <span style={{ color: darkMode ? "white" : "" }}>My</span>
         <span>services</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+          Studied Full stack Development specialized in MERN
           <br />
-          ispum is simpley dummy text of printing
+          Here are my services displayed
         </spane>
-        <a href="https://drive.google.com/file/d/1zDAocJbITJgzdQR_mJXuLBUp31k4Uaa2/view?usp=sharing" download>
+        <a href="https://drive.google.com/file/d/1KHdVhNN-3g3SFEP8rMJ03pt6Au-nH2Gj/view?usp=sharing" download>
           <button className="button s-button">Download CV</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
@@ -46,8 +46,8 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            heading={"Frontend"}
+            detail={"HTML5,CSS3,Javascript,React"}
           />
         </motion.div>
         {/* second card */}
@@ -59,8 +59,8 @@ const Services = () => {
           
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            heading={"Backend"}
+            detail={"PostmanAPI,Git,Python, Nodejs, Express"}
           />
         </motion.div>
         {/* 3rd */}
@@ -71,9 +71,9 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
+            heading={"Database"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "MYSQL,MongoDB"
             }
             color="rgba(252, 166, 31, 0.45)"
           />

@@ -19,6 +19,12 @@
   font-weight: bold;
 }
 
+.text-center{
+  margin-left: 70px;
+  
+  
+}
+
 /* slider */
 .portfolio .swiper{
     overflow: visible!important;

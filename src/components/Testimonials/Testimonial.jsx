@@ -9,37 +9,47 @@ import profilePic1 from "../../img/profile1.jpg";
 import profilePic2 from "../../img/profile2.jpg";
 import profilePic3 from "../../img/profile3.jpg";
 import profilePic4 from "../../img/profile4.jpg";
+import Button from 'react-bootstrap/Button';
+import { Link } from "react-scroll";
 
 const Testimonial = () => {
   const clients = [
     {
-      img: profilePic1,
+      title:'E-commerce Applicaton',
+      img: 'https://cdn.iconscout.com/icon/free/png-256/ecommerce-services-solution-cart-online-shopping-settings-6977.png',
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Using MERN Stack",
+        link:'https://digital-world-r.netlify.app/'
     },
     {
-      img: profilePic2,
+      title:'Social Media Management Application',
+      img: 'https://png.pngtree.com/element_our/md/20180524/md_5b072d393d61e.jpg',
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Using MERN Stack",
+        link:'https://connect-ezru.onrender.com'
     },
     {
-      img: profilePic3,
+      title:'CRUD Operations',
+      img: 'https://media.glassdoor.com/sqll/4991319/crud-operations-squareLogo-1629959382545.png',
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Simple application built using React",
+        link:'https://crud-nly9.onrender.com'
     },
     {
-      img: profilePic4,
+      title:'Fetch API',
+      img: 'https://miro.medium.com/max/1200/1*pD_a4MRxL5KqQi-DC_R0IQ.png',
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Fetch API using Javascript in fetching Rest-countries api",
+        link:'https://charming-salmiakki-123884.netlify.app/'
     },
   ];
 
   return (
     <div className="t-wrapper" id="testimonial">
       <div className="t-heading">
-        <span>Clients always get </span>
-        <span>Exceptional Work </span>
-        <span>from me...</span>
+        <span>These are the </span>
+        <span>Working Code </span>
+        <span>of my projects..</span>
       <div className="blur t-blur1" style={{ background: "var(--purple)" }}></div>
       <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
 
@@ -55,12 +65,19 @@ const Testimonial = () => {
             <SwiperSlide key={index}>
               <div className="testimonial">
                 <img src={client.img} alt="" />
+                <h4>{client.title}</h4>
                 <span>{client.review}</span>
+                <a href={client.link}><button className="button">View</button></a>
+                
+                
               </div>
+              
             </SwiperSlide>
+            
           );
         })}
       </Swiper>
+      
     </div>
   );
 };

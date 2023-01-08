@@ -23,20 +23,9 @@ const Works = () => {
           <span style={{ color: darkMode ? "white" : "" }}>
             Works for All these
           </span>
-          <span>Brands & Clients</span>
-          <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
-            <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
-            <br />
-            y dummy text of printingLorem
-            <br />
-            ispum is simpley dummy text of printing
-          </spane>
-          <Link to="contact" smooth={true} spy={true}>
-            <button className="button s-button">Hire Me</button>
-          </Link>
+          <span style={{ fontSize: "40px" }}>Frontend , Backend as well as Database</span>
+          
+          
           <div
             className="blur s-blur1"
             style={{ background: "#ABF1FF94" }}
@@ -54,19 +43,19 @@ const Works = () => {
           className="w-mainCircle"
         >
           <div className="w-secCircle">
-            <img src={Upwork} alt="" />
+            <img src='https://cdn.iconscout.com/icon/free/png-256/mongodb-3-1175138.png' alt="" width={'160px'}/>
           </div>
           <div className="w-secCircle">
-            <img src={Fiverr} alt="" />
+            <img src='https://cdn.iconscout.com/icon/free/png-128/nodejs-2-226035.png' alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Amazon} alt="" />
+            <img src='https://www.rlogical.com/wp-content/uploads/2020/12/MERN-Stack-Best-for-Developing-Web-Apps.png' alt="" width={'200px'}/>
           </div>{" "}
           <div className="w-secCircle">
-            <img src={Shopify} alt="" />
+            <img src='https://skillshack.blob.core.windows.net/uploads/express.webp' alt=""width={'170px'} />
           </div>
           <div className="w-secCircle">
-            <img src={Facebook} alt="" />
+            <img src='https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png' alt="" width={'170px'}/>
           </div>
         </motion.div>
         {/* background Circles */}
