@@ -86,10 +86,12 @@
   justify-content: center;
   background: "none";
   box-shadow: var(--smboxShadow);
-  background: black;
+  background: white;
   
 }
-
+.mern{
+  object-fit: cover;
+}
 .w-secCircle > img {
   transform: scale(0.6);
   

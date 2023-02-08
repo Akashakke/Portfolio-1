@@ -49,7 +49,7 @@ const Intro = () => {
         'Backend developer', // Deletes 'One' and types 'Two'
         2000, // Waits 2s
         'Full stack developer', // Types 'Three' without deleting 'Two'
-        5000,
+        10000,
         () => {
           console.log('Done typing!'); // Place optional callbacks anywhere in the array
         }
@@ -75,13 +75,13 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <a href="https://github.com/Akashakke">
+          <a href="https://github.com/Akashakke" target='_blank'>
             <img src={Github} alt="" />
           </a>
-          <a href="https://www.linkedin.com/in/akash-praveen">
+          <a href="https://www.linkedin.com/in/akash-praveen" target='_blank'>
             <img src={LinkedIn} alt="" />
           </a>
-          <a  href="https://www.instagram.com/_akie4">
+          <a  href="https://www.instagram.com/_akie4" target='_blank'>
             <img src={Instagram} alt="" />
           </a>
         </div>

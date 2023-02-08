@@ -1,13 +1,9 @@
 import React, { useContext } from "react";
 import "./Works.css";
-import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
-import Amazon from "../../img/amazon.png";
-import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
+
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import {Link} from 'react-scroll'
+
 const Works = () => {
   // context
   const theme = useContext(themeContext);
@@ -43,7 +39,7 @@ const Works = () => {
           className="w-mainCircle"
         >
           <div className="w-secCircle">
-            <img src='https://cdn.iconscout.com/icon/free/png-256/mongodb-3-1175138.png' alt="" width={'160px'}/>
+            <img src='https://cdn.iconscout.com/icon/free/png-256/mongodb-226029.png' alt="" width={'160px'}/>
           </div>
           <div className="w-secCircle">
             <img src='https://cdn.iconscout.com/icon/free/png-128/nodejs-2-226035.png' alt="" />

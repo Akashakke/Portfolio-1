@@ -15,7 +15,9 @@
   position: relative;
   /* gap: 20px; */
 }
-
+.about__img{
+  margin-top: 20px;
+}
 .awesome > :nth-child(1) {
   color: var(--black);
   font-size: 2.5rem;
@@ -39,6 +41,7 @@
 /* right sided */
 .cards {
   position: relative;
+  margin-left: 10%;
 }
 .cards > * {
   position: absolute;

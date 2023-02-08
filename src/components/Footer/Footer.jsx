@@ -21,7 +21,7 @@ const Footer = () => {
         </a>*/}
         <a style={{ padding: "20px" }} href="mailto:rakashpraveen@karunya.edu.in">
           <img
-            src="https://cdn.iconscout.com/icon/free/png-256/gmail-2981844-2476484.png"
+            src="https://cdn.iconscout.com/icon/free/png-256/mail-email-message-inbox-letter-envelope-9-16595.png"
             width="40px"
             
           />

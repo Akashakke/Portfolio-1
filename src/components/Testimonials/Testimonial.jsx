@@ -5,12 +5,7 @@ import "swiper/css";
 
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
-import profilePic1 from "../../img/profile1.jpg";
-import profilePic2 from "../../img/profile2.jpg";
-import profilePic3 from "../../img/profile3.jpg";
-import profilePic4 from "../../img/profile4.jpg";
-import Button from 'react-bootstrap/Button';
-import { Link } from "react-scroll";
+
 
 const Testimonial = () => {
   const clients = [
@@ -19,7 +14,7 @@ const Testimonial = () => {
       img: 'https://cdn.iconscout.com/icon/free/png-256/ecommerce-services-solution-cart-online-shopping-settings-6977.png',
       review:
         "Using MERN Stack",
-        link:'https://digital-world-r.netlify.app/'
+        link:'https://digi-world.netlify.app/'
     },
     {
       title:'Social Media Management Application',
@@ -67,7 +62,7 @@ const Testimonial = () => {
                 <img src={client.img} alt="" />
                 <h4>{client.title}</h4>
                 <span>{client.review}</span>
-                <a href={client.link}><button className="button">View</button></a>
+                <a href={client.link} target='_blank'><button className="button">View</button></a>
                 
                 
               </div>

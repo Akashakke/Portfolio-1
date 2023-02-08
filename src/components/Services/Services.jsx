@@ -34,6 +34,11 @@ const Services = () => {
         <a href="https://drive.google.com/file/d/1KHdVhNN-3g3SFEP8rMJ03pt6Au-nH2Gj/view?usp=sharing" download>
           <button className="button s-button">Download CV</button>
         </a>
+        <img
+              src='https://camo.githubusercontent.com/c1dcb74cc1c1835b1d716f5051499a2814c683c806b15f04b0eba492863703e9/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f3733303730332f73637265656e73686f74732f363538313234332f6176656e746f2e676966'
+              alt=""
+              className="about__img"
+           width={'500px'} />
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
       {/* right */}
