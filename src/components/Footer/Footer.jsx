@@ -9,8 +9,8 @@ const Footer = () => {
   return (
     <div className="footer">
       <img src={Wave} alt="" style={{ width: "100%" }} />
-      <div className="f-content">
-        <div className="mailid" style={{color:'black'}}>akash.akke4@gmail.com</div>
+    <div className="f-content">
+        
         <div>
       {/*  <a style={{ padding: "20px" }} href="tel:9047346659">
           <img
