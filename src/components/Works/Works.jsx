@@ -48,7 +48,7 @@ const Works = () => {
             <img src='https://www.rlogical.com/wp-content/uploads/2020/12/MERN-Stack-Best-for-Developing-Web-Apps.png' alt="" width={'200px'}/>
           </div>{" "}
           <div className="w-secCircle">
-            <img src='https://skillshack.blob.core.windows.net/uploads/express.webp' alt=""width={'170px'} />
+            <img src='https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png' alt=""width={'170px'} />
           </div>
           <div className="w-secCircle">
             <img src='https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png' alt="" width={'170px'}/>

@@ -19,7 +19,7 @@ const Footer = () => {
             
   />
         </a>*/}
-        <a style={{ padding: "20px" }} href="mailto:rakashpraveen@karunya.edu.in">
+        <a style={{ padding: "20px" }} href="mailto:rakashpraveen@karunya.edu.in" target="_blank">
           <img
             src="https://cdn.iconscout.com/icon/free/png-256/mail-email-message-inbox-letter-envelope-9-16595.png"
             width="40px"
@@ -31,7 +31,7 @@ const Footer = () => {
         <a
             style={{ padding: "20px" }}
             href="https://in.linkedin.com/in/akash-praveen"
-          >
+            target="_blank" >
             <img
               src="https://cdn.iconscout.com/icon/premium/png-256-thumb/linkedin-3506278-2932736.png"
               alt="Girl in a jacket"
@@ -39,7 +39,7 @@ const Footer = () => {
             />
           </a>
 
-          <a style={{ padding: "20px" }} href="https://github.com/Akashakke">
+          <a style={{ padding: "20px" }} href="https://github.com/Akashakke" target="_blank" >
             <img
               src="https://education.github.com/assets/pack/icon_github-pages-3f2eb02545ca7c3e81beb0a464e85fb5340ec9d689133db563d1869350d6416c.png"
               width="40rem"
@@ -48,14 +48,14 @@ const Footer = () => {
           <a
             style={{ padding: "20px" }}
             href="https://www.instagram.com/_akie4/"
-          >
+            target="_blank"  >
             <img
               src="https://cdn.iconscout.com/icon/free/png-256/instagram-52-151106.png"
               alt="Girl in a jacket"
               width="40rem"
             />
           </a>
-          <a style={{ padding: "20px" }} href="https://twitter.com/akke_akash">
+          <a style={{ padding: "20px" }} href="https://twitter.com/akke_akash" target="_blank" >
             <img
               src="https://cdn.iconscout.com/icon/free/png-256/twitter-3770969-3147586.png"
               alt="Girl in a jacket"
